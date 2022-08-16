@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    border: 1px solid transparent;
+    grid-template-columns: repeat(4, 25%);
+    gap: 5px;
+}
+.mainDiv{
+    border: 1px solid transparent;
+    width: 80%;
+    /* grid-template-columns: repeat(4, 25%); */
+    height: 450px;
+    margin: auto;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.subDiv {
+    border: 1px solid transparent;
+    margin: auto;
+}
+
+.starFork{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    font-size: 25px;
+}
